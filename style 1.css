@@ -1,0 +1,415 @@
+body {
+    background-color: #333;
+  }
+  
+  .container1{
+    padding: 24px 24px 24px 24px;
+  }
+
+  .container2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+  }
+  
+  .INTRO-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+  }
+
+  .container3{
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+    width:auto;
+    padding: 0px;
+    text-align: center;
+  }
+
+   .theme-layer-headingtext{
+    font-family: "Eczar";
+    font-size: 36px;
+    text-align: center;
+    color: white;
+  }
+
+  .theme-layer-headingtext-parade{
+    font-family: "GFSTheokritosRegular";
+    font-size: 120px;
+    line-height: 0.2;
+    text-align: center;
+    color: #fabd15;
+  }
+
+  .theme-layer-headingtext-parade1{
+    font-family: "GFSTheokritosRegular";
+    font-size: 40px;
+    line-height: 0.2;
+    text-align: center;
+    color: #fabd15;
+  }
+
+  .theme-layer-bodytext-lineitem{
+    font-family: "Montserrat";
+    text-align: left;
+    color: white;
+  }
+
+  .container4{
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: auto;
+    padding: 12px;
+    text-align: center;
+  }
+
+  .container5{
+    display: block;
+    margin-left: 35%;
+    margin-right: 35%;
+    width: auto;
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .padlock-img{
+    float: left;
+    padding: 0 100px 0 0;
+    width: 150px;
+    height: 150px;
+  }
+
+  .aside1{
+    content:"";
+    clear: both;
+    display: table;
+    padding: 12px;
+    font-family: "Eczar";
+    text-align: center;
+    font-size: 24px;
+    color: white;
+  }
+
+  .theme-layer-bodytext-startclue{
+    font-family: "Montserrat";
+    text-align: center;
+    color: white;
+  }
+
+  .hidden1{
+    display: none;
+  }
+
+  .hidden2{
+    display: none;
+  }
+
+  hr{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .MARCHING-gif{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 12px;
+    width: 100%;
+  }
+
+   .BOOKS-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    }
+  
+  .LIBENT-img{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    width: 100%;
+  }
+
+  .row {
+    display: flex;
+    align-items: center;
+    vertical-align: center;
+    padding-top: 50px;
+  }
+  
+  .column {
+    flex: 50%;
+    align-items: center;
+    vertical-align: center;
+  }  
+
+  .container6{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    max-width: 55%;
+  }
+
+  .container7{
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    align-items: center;
+    vertical-align: center;
+    padding-top: 60px;
+  }
+
+  .container8{
+    display: flex;
+    align-items: center;
+    vertical-align: center;
+    padding-bottom: 60px;
+  }
+
+  .BOOKSHELF-img{
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    width: 100%;
+  }
+
+  #myImage{
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    width: 100%;
+  }
+
+  #BOOKSHELF-img{
+    display: block;
+    margin-left: 10%;
+    margin-right: 20%;
+    width: auto;
+  }
+
+  .button {
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .button3{
+    display: inline-block;
+    margin-left: 10%;
+    width: auto;
+  }
+
+  .button4{
+    display: inline-block;
+    margin-right: 10%;
+    width: auto;
+  }
+
+  .button5{
+    display: inline-block;
+    margin-left: 10%;
+  }
+
+  .container9{
+    display: block;
+    margin-left: 35%;
+    margin-right: 35%;
+    width: auto;
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .container10{
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: auto;
+    padding: 12px;
+    text-align: center;
+  }
+
+  .hidden3{
+    display: none;
+  }
+  
+  .row1{
+    display: flex;
+   }
+  
+  .column1{
+    flex: 25%;
+    padding: 5px;
+  }
+
+  #gallery1{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 30px;
+  }
+
+  #gallery2{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 30px;
+  }
+
+  .container11{
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: auto;
+    padding: 12px;
+    text-align: center;
+  }
+
+  .plaque-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 120px;
+    width: 100%;
+  }
+
+  .row2{
+    display: flex;
+    align-items: top;
+    vertical-align: top;
+    padding-top: 0px;
+   }
+  
+  .column2{
+    flex: 50%;
+    align-items: top;
+    vertical-align: top;
+  }
+
+  .container12{
+    display: block;
+    margin-left: 35%;
+    margin-right: 35%;
+    width: auto;
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  #PICmodal {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: #333; /* Fallback color */
+    background-color: #333; /* Black w/ opacity */
+  }
+  
+  /* Modal Content (image) */
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 700px;
+  }
+  
+  /* Caption of Modal Image */
+  #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 14px;
+    color: #fabd15;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  /* Add Animation */
+  .modal-content, #caption {  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+  }
+
+  .body-text{
+    font-family: "Montserrat";
+    text-align: center;
+    color: white;
+  }
+
+
+
+  
