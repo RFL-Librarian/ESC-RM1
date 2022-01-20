@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style 1.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Special Elite|Montserrat|Libre Baskerville|Staatliches|Eczar">
+        <link rel="stylesheet" href="https://fontlibrary.org//face/gfs-theokritos">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        
+    </head>
+
+    <body>
+        <div class="NavBar">
+            <div class="container1">
+                <a href="https://www.riverheadlibrary.org"><i style="float:left"><img src="E:/CODE/Code/Images/White Logo.png"/></i></a>
+                <a href="https://twitter.com/RivFreeLibrary?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i style="float:right"><i style="padding: 24px 0 12px 12px"></i>
+                    <img src="https://img.icons8.com/ios-filled/36/ffffff/twitter.png"/></i></a>
+                <a href="https://www.instagram.com/riverheadfreelibrary/?hl=en"><i style="float:right"><i style="padding: 24px 0 12px 12px"></i>
+                    <img src="https://img.icons8.com/ios-filled/36/ffffff/instagram.png"/></i></a>
+                <a href="https://www.facebook.com/theriverheadfreelibrary/"><i style="float:right"><i style="padding: 24px 12px 0 12px"></i>
+                    <img src="https://img.icons8.com/ios-filled/36/ffffff/facebook--v1.png"/></i></a>
+            </div>
+        </div>
+
+        <section class="body">
+            <div class="container2">
+                        <img class="INTRO-img" src="E:/CODE/Code/Images/Locked In The Library (2).gif" alt="MARDI GRAS INTRO">
+                </div>
+            </div>
+            <div class="container3">
+             <h1 class="theme-layer-headingtext"><font size="46px">Welcome to</font><br><em>Locked In The Library: A Mardi Gras Mystery</em><br>Virtual Escape Room</h1>
+             <ul class="theme-layer-bodytext-lineitem">
+                 <li class="theme-layer-bodytext-lineitem">In order to escape the library you must read carefully, look for clues, and uncover the hidden passwords</li>
+                 <li class="theme-layer-bodytext-lineitem">If you get stuck, look for hints from our Librarians along the way or ask us on Twitter @RivFreeLibrary (#LockedInTheLibrary)</li>
+                 <li class="theme-layer-bodytext-lineitem">Remember! The fun is in the journey not the destination. If you escape keep the passwords to yourself! (But feel free to brag!)</li>
+                 <li class="theme-layer-bodytext-lineitem">For easy reading, you can find a transcription of all the text <strong>HERE</strong>.</li>
+                 <li class="theme-layer-bodytext-lineitem">**Note**: The events that take place in this virtual escape room are <strong><em>entirely fictional</em></strong>. Please don't endanger yourself or others by looking for hidden passageways!</li>
+                 
+             </ul>
+             <h1 class="theme-layer-headingtext">Good Luck!</h1>
+            </div>
+            <hr style="width:75%">
+            <div class="container4">
+             <h3 class="theme-layer-bodytext-startclue">Five numbers start the card you need
+                 <br>To borrow a book, as agreed
+                 <br>So take this step if you intend to win
+                 <br>Enter the code for the game to begin</h3>
+            </div>
+            <div class="container5">
+                <aside1>
+                    <img class="padlock-img" src="E:/CODE/Code/Images/padlock.png" alt="padlock"></aside1>
+                    <script>
+                        function myFunction(){
+                            let x = document.getElementById("passwordBox").value;
+                            let text;
+                            if(x == "20646") {
+                                alert("That is Correct! You may begin the game!");
+                                $("div#container6").removeClass("hidden1");
+                                $("div#container7").removeClass("hidden1");
+                           
+                            }    
+                            else {
+                            alert("Access Denied! Try Again.");
+                            $(".container6").hide();
+                            $(".container7").hide();
+                            }
+                            
+                        }
+                    </script>
+                    <h3 class="theme-layer-bodytext-startclue">ENTER PASSWORD<br>_ _ _ _ _<br></h3>
+                    <input id="passwordBox" type="password" placeholder="Enter Password Here..."/>
+                    <br><br><button type="button" onclick="myFunction()">Check</button> 
+                    </div>
+            </div>
+            <hr style="width:75%">
+            <div id="container6" class="hidden1">
+                <img class="MARCHING-gif" src="E:/CODE/Code/Images/MARCHING BAND GIF 1.gif" alt="Marching Band" style="width:80%">
+                    <h1 class="theme-layer-headingtext-parade">The Parade</h1>
+                    <h3 class="theme-layer-bodytext-startclue">
+                        March 1st 2022, marks Riverhead Town's first annual</h3>
+                        <h1 class="theme-layer-headingtext-parade1">Mardi Gras Parade!</h1>
+                        <h3 class="theme-layer-bodytext-startclue">
+                            Main Street is alive with people, music, and vendors.
+                            <br>Local businesses have closed early to support the festivities and you are on your way there now. 
+                            <br>But first....</h5>
+                    <img class="BOOKS-img" src="E:/CODE/Code/Images/BOOKS.png" alt="BOOKS" style="width: 25%">
+                    <h3 class="theme-layer-bodytext-startclue">You really should return those library books...<br>Don't you think?</h3>
+                    <h1 class="theme-layer-headingtext-parade">* * *</h1>
+                    
+                    
+                    <div class="row">
+                    <div class="column">
+                        <div class="container7">
+                        <h3 class="theme-layer-bodytext-startclue">
+                            You have some time to kill before meeting your friends, so you decide to go in and browse the stacks.
+                            You pop your headphones in and head downstairs to the non-fiction section...
+                            <br><br><br><span style="color:#fabd15">"I wonder what books they have about Mardi Gras?"</span>
+                            <br><br><br>As you wander the lower stacks a man bedecked in <br>Mardi Gras dress walks by at a quick pace. <br>Amused, you follow him intent on complimenting his outfit. Then suddenly, the lights go out and you find yourself plunged into darkness. 
+                            <br><br><br><span style="color:#fabd15">"Hello!?"</span>
+                            <br><br><br>You call out, pulling your headphones from your ears. 
+                            <br><br><br><span style="color:#fabd15">"I'm still down here!?"</span>
+                            <br><br><br>You shout as you feel along the shelves, trying to find your way to the stairs.
+                            <br><br>Your hand catches a book pulling it from the shelf, but instead of clattering to the floor it pulls like a lever. Strange you think, before the floor below you opens and you begin to fall.</h3>
+                            </div>
+                </div>
+                <div class="column">
+                    <img class="LIBENT-img" src="E:/CODE/Code/Images/LIB ENT 1.png" alt="Library Entrance" style="width: 80%">
+                </div>
+                </div>
+                
+                <h1 class="theme-layer-headingtext-parade">* * *</h1>
+
+                <div class="container8">
+                <div class="row">
+                    <div class="column">
+                        <div class="container4">
+                             <h3 class="theme-layer-bodytext-startclue">
+                                <span style="color:#fabd15">You hit the floor with a thud.</span> 
+                                <br><br>It wasn't a long drop but it was surprising and it takes you a minute to stumble to your feet.
+                                <br><br><span style="color:#fabd15">You can barely see a thing!</span>
+                                <br><br>You sweep your hand up and down the wall until you find a light switch...
+                            </h3></div>
+                            
+                            <img id="myImage" src="E:/CODE/Code/Images/LIGHT OFF (1).png" alt="Light Bulb" style="width:60%">
+                            <button class="button button5" onclick="document.getElementById('myImage').src='E:/CODE/Code/Images/LIGHT ON (1).png'; javascript:showDiv();">ON</button>
+                            <button class="button button6" onclick="document.getElementById('myImage').src='E:/CODE/Code/Images/LIGHT OFF (1).png';javascript:hideDiv();">OFF</button>
+                            
+                            
+                            <script type="text/javascript">
+                                function showDiv() {
+                                    div = document.getElementById('BOOKSHELF');
+                                    div.style.display = "block";
+                                    div = document.getElementById('CLUE2');
+                                    div.style.display = "block"
+                                }
+
+                                function hideDiv() {
+                                    div = document.getElementById('BOOKSHELF');
+                                    div.style.display = "none";
+                                    div = document.getElementById('CLUE2');
+                                    div.style.display = "none";
+                                }
+                            </script>
+                          
+                            </div>
+                            <div class="column">
+                            <div id="BOOKSHELF" class="hidden2">
+                                                      
+                            <img id="BOOKSHELF-img" src="E:/CODE/Code/Images/BOOKSHELF (3).png" alt="Bookshelf" style="width:80%"><br><br><br>
+                            
+                            <button class="button button3" onclick="document.getElementById('BOOKSHELF-img').src='E:/CODE/Code/Images/BOOKSHELF (3).png'; javascript:showDiv();">LEAVE THE BOOKS ON</button>
+                            <button class="button button4" onclick="document.getElementById('BOOKSHELF-img').src='E:/CODE/Code/Images/EMPTY BOOKSHELF.png';javascript:showDiv();">TAKE THE BOOKS OFF</button>
+                            
+                            </div>
+                            </div>
+                            </div>
+                            </div>
+                    <div class="container4">
+                    <div id="CLUE2" class="hidden2">
+                    <h3 class="theme-layer-bodytext-startclue">
+                        Once the light is on, you can see that you're in a small room with a bookshelf across from you. 
+                        <br><br>Next to the bookshelf is a door.
+                        <br><br><span style="color:#fabd15">You rush toward it and try the knob, but it's locked!</span>
+                        <br><br>If a book got you in here maybe one can get you out.
+                        <br><br>You begin to pull the off the shelves. Is something written on the back of the shelf?
+                        <br><br>
+                        </h3></div></div>
+
+                    <div class="container9">
+                        <aside1>
+                            <img class="padlock-img" src="E:/CODE/Code/Images/padlock.png" alt="padlock"></aside1>
+                            <script>
+                                function myFunction1(){
+                                    let x = document.getElementById("passwordBox1").value;
+                                    let text;
+                                    if(x == "KINGCAKE") {
+                                        alert("That is correct! The door opens!");
+                                        $("div#container10").removeClass("hidden3");
+                                        $("div#container11").removeClass("hidden3");
+                                        $("div#container12").removeClass("hidden3");
+                                   
+                                    }    
+                                    else {
+                                    alert("Access Denied! Try Again.");
+                                    $(".container10").hide();
+                                    $(".container11").hide();
+                                    $(".container12").hide();
+                                    }
+                                    
+                                }
+                            </script>
+                            <h3 class="theme-layer-bodytext-startclue">ENTER PASSWORD<br>_ _ _ _ _ _ _ _<br></h3>
+                            <input id="passwordBox1" type="password" placeholder="Enter Password Here..." onkeyup="this.value=this.value.toUpperCase();" required=""/>
+                            <br><br><button type="button" onclick="myFunction1()">Check</button> 
+                            </div>
+
+                    <h1 class="theme-layer-headingtext-parade">* * *</h1>
+
+                    <div id="container10" class="hidden3">
+                        <h3 class="theme-layer-bodytext-startclue">
+                            Once you've rearranged the books on the shelf, it spells something out. "King Cake? Sounds delicious."
+                            <br><br><span style="color:#fabd15">The door creaks open to reveal a long narrow hallway with large gold frames lining the walls and a door at the end.</span>
+                            <br><br>As you step into the hallway the door you came through slams and locks behind you.
+                            <br><br></h3>
+
+                            <div id="gallery1" class="row1">
+                                <div class="column1">
+                                <img id="PIC1" src="E:/CODE/Code/Images/PICTURE FRAMe 1.png" alt="Hand Book of the Carnival, p.25" style="width:100%">
+                                <!-- The Modal -->
+                                <div id="PICmodal" class="modal">
+                                <span class="close">&times;</span>
+                                <img class="modal-content" id="img01">
+                                <div id="caption"></div>
+                                </div>
+
+                                <script>
+                                    // Get the modal
+                                    var modal = document.getElementById("PICmodal");
+                                    
+                                    // Get the image and insert it inside the modal - use its "alt" text as a caption
+                                    var img = document.getElementById("PIC1");
+                                    var modalImg = document.getElementById("img01");
+                                    var captionText = document.getElementById("caption");
+                                    img.onclick = function(){
+                                      modal.style.display = "block";
+                                      modalImg.src = this.src;
+                                      captionText.innerHTML = this.alt;
+                                    }
+                                    
+                                    // Get the <span> element that closes the modal
+                                    var span = document.getElementsByClassName("close")[0];
+                                    
+                                    // When the user clicks on <span> (x), close the modal
+                                    span.onclick = function() { 
+                                      modal.style.display = "none";
+                                    }
+                                    </script></div>
+
+                            
+                                <div class="column1">
+                                <img id="PIC2" src="E:/CODE/Code/Images/PICTURE FRAMe 2.png" alt="Hand Book of the Carnival, p.2" style="width:100%">
+                                 <!-- The Modal -->
+                                 <div id="PICmodal" class="modal">
+                                    <span class="close">&times;</span>
+                                    <img class="modal-content" id="img01">
+                                    <div id="caption"></div>
+                                    </div>
+    
+                                    <script>
+                                        // Get the modal
+                                        var modal = document.getElementById("PICmodal");
+                                        
+                                        // Get the image and insert it inside the modal - use its "alt" text as a caption
+                                        var img = document.getElementById("PIC2");
+                                        var modalImg = document.getElementById("img01");
+                                        var captionText = document.getElementById("caption");
+                                        img.onclick = function(){
+                                          modal.style.display = "block";
+                                          modalImg.src = this.src;
+                                          captionText.innerHTML = this.alt;
+                                        }
+                                        
+                                        // Get the <span> element that closes the modal
+                                        var span = document.getElementsByClassName("close")[0];
+                                        
+                                        // When the user clicks on <span> (x), close the modal
+                                        span.onclick = function() { 
+                                          modal.style.display = "none";
+                                        }
+                                        </script></div>
+                            
+                                <div class="column1">
+                                <img id="PIC3" src="E:/CODE/Code/Images/PICTURE FRAMe 3.png" alt="Hand Book of the Carnival, p.30" style="width:100%">
+                                 <!-- The Modal -->
+                                 <div id="PICmodal" class="modal">
+                                    <span class="close">&times;</span>
+                                    <img class="modal-content" id="img01">
+                                    <div id="caption"></div>
+                                    </div>
+    
+                                    <script>
+                                        // Get the modal
+                                        var modal = document.getElementById("PICmodal");
+                                        
+                                        // Get the image and insert it inside the modal - use its "alt" text as a caption
+                                        var img = document.getElementById("PIC3");
+                                        var modalImg = document.getElementById("img01");
+                                        var captionText = document.getElementById("caption");
+                                        img.onclick = function(){
+                                          modal.style.display = "block";
+                                          modalImg.src = this.src;
+                                          captionText.innerHTML = this.alt;
+                                        }
+                                        
+                                        // Get the <span> element that closes the modal
+                                        var span = document.getElementsByClassName("close")[0];
+                                        
+                                        // When the user clicks on <span> (x), close the modal
+                                        span.onclick = function() { 
+                                          modal.style.display = "none";
+                                        }
+                                        </script></div>
+
+                                <div class="column1">
+                                <img id="PIC4" src="E:/CODE/Code/Images/PICTURE FRAMe 4.png" alt="Hand Book of the Carnival, p.31" style="width:100%">
+                                 <!-- The Modal -->
+                                 <div id="PICmodal" class="modal">
+                                    <span class="close">&times;</span>
+                                    <img class="modal-content" id="img01">
+                                    <div id="caption"></div>
+                                    </div>
+    
+                                    <script>
+                                        // Get the modal
+                                        var modal = document.getElementById("PICmodal");
+                                        
+                                        // Get the image and insert it inside the modal - use its "alt" text as a caption
+                                        var img = document.getElementById("PIC4");
+                                        var modalImg = document.getElementById("img01");
+                                        var captionText = document.getElementById("caption");
+                                        img.onclick = function(){
+                                          modal.style.display = "block";
+                                          modalImg.src = this.src;
+                                          captionText.innerHTML = this.alt;
+                                        }
+                                        
+                                        // Get the <span> element that closes the modal
+                                        var span = document.getElementsByClassName("close")[0];
+                                        
+                                        // When the user clicks on <span> (x), close the modal
+                                        span.onclick = function() { 
+                                          modal.style.display = "none";
+                                        }
+                                        </script></div>
+                            </div>
+
+                            <h3 class="theme-layer-bodytext-startclue">CLICK ON THE PICTURE FRAMES TO ENLARGE THE IMAGE</h3>
+
+
+                            <div id="gallery2" class="row1">
+                                <div class="column1">
+                                <img id="PIC44" src="E:/CODE/Code/Images/PICTURE FRAMe 44.png" alt="Hand Book of the Carnival, p.11" style="width:100%">
+                                <!-- The Modal -->
+                                <div id="PICmodal" class="modal">
+                                    <span class="close">&times;</span>
+                                    <img class="modal-content" id="img01">
+                                    <div id="caption"></div>
+                                    </div>
+    
+                                    <script>
+                                        // Get the modal
+                                        var modal = document.getElementById("PICmodal");
+                                        
+                                        // Get the image and insert it inside the modal - use its "alt" text as a caption
+                                        var img = document.getElementById("PIC44");
+                                        var modalImg = document.getElementById("img01");
+                                        var captionText = document.getElementById("caption");
+                                        img.onclick = function(){
+                                          modal.style.display = "block";
+                                          modalImg.src = this.src;
+                                          captionText.innerHTML = this.alt;
+                                        }
+                                        
+                                        // Get the <span> element that closes the modal
+                                        var span = document.getElementsByClassName("close")[0];
+                                        
+                                        // When the user clicks on <span> (x), close the modal
+                                        span.onclick = function() { 
+                                          modal.style.display = "none";
+                                        }
+                                        </script></div>
+                            
+                                <div class="column1">
+                                <img id="PIC33" src="E:/CODE/Code/Images/PICTURE FRAMe 33.png" alt="Hand Book of the Carnival, p.13" style="width:100%">
+                                <!-- The Modal -->
+                                <div id="PICmodal" class="modal">
+                                    <span class="close">&times;</span>
+                                    <img class="modal-content" id="img01">
+                                    <div id="caption"></div>
+                                    </div>
+    
+                                    <script>
+                                        // Get the modal
+                                        var modal = document.getElementById("PICmodal");
+                                        
+                                        // Get the image and insert it inside the modal - use its "alt" text as a caption
+                                        var img = document.getElementById("PIC33");
+                                        var modalImg = document.getElementById("img01");
+                                        var captionText = document.getElementById("caption");
+                                        img.onclick = function(){
+                                          modal.style.display = "block";
+                                          modalImg.src = this.src;
+                                          captionText.innerHTML = this.alt;
+                                        }
+                                        
+                                        // Get the <span> element that closes the modal
+                                        var span = document.getElementsByClassName("close")[0];
+                                        
+                                        // When the user clicks on <span> (x), close the modal
+                                        span.onclick = function() { 
+                                          modal.style.display = "none";
+                                        }
+                                        </script></div>
+                            
+                                <div class="column1">
+                                <img id="PIC22" src="E:/CODE/Code/Images/PICTURE FRAMe 22.png" alt="Hand Book of the Carnival, p.19" style="width:100%">
+                                <!-- The Modal -->
+                                <div id="PICmodal" class="modal">
+                                    <span class="close">&times;</span>
+                                    <img class="modal-content" id="img01">
+                                    <div id="caption"></div>
+                                    </div>
+    
+                                    <script>
+                                        // Get the modal
+                                        var modal = document.getElementById("PICmodal");
+                                        
+                                        // Get the image and insert it inside the modal - use its "alt" text as a caption
+                                        var img = document.getElementById("PIC22");
+                                        var modalImg = document.getElementById("img01");
+                                        var captionText = document.getElementById("caption");
+                                        img.onclick = function(){
+                                          modal.style.display = "block";
+                                          modalImg.src = this.src;
+                                          captionText.innerHTML = this.alt;
+                                        }
+                                        
+                                        // Get the <span> element that closes the modal
+                                        var span = document.getElementsByClassName("close")[0];
+                                        
+                                        // When the user clicks on <span> (x), close the modal
+                                        span.onclick = function() { 
+                                          modal.style.display = "none";
+                                        }
+                                        </script></div>
+
+                                <div class="column1">
+                                <img id="PIC11" src="E:/CODE/Code/Images/PICTURE FRAMe 11.png" alt="Hand Book of the Carnival, p.27" style="width:100%">
+                                <!-- The Modal -->
+                                <div id="PICmodal" class="modal">
+                                    <span class="close">&times;</span>
+                                    <img class="modal-content" id="img01">
+                                    <div id="caption"></div>
+                                    </div>
+    
+                                    <script>
+                                        // Get the modal
+                                        var modal = document.getElementById("PICmodal");
+                                        
+                                        // Get the image and insert it inside the modal - use its "alt" text as a caption
+                                        var img = document.getElementById("PIC11");
+                                        var modalImg = document.getElementById("img01");
+                                        var captionText = document.getElementById("caption");
+                                        img.onclick = function(){
+                                          modal.style.display = "block";
+                                          modalImg.src = this.src;
+                                          captionText.innerHTML = this.alt;
+                                        }
+                                        
+                                        // Get the <span> element that closes the modal
+                                        var span = document.getElementsByClassName("close")[0];
+                                        
+                                        // When the user clicks on <span> (x), close the modal
+                                        span.onclick = function() { 
+                                          modal.style.display = "none";
+                                        }
+                                        </script></div>
+                            </div></h3>
+
+                            <h1 class="theme-layer-headingtext-parade">* * *</h1>
+                            </div>
+
+                    <div id="container11" class="hidden3">
+                        <div class="row2">
+                            <div class="column2">
+                                <div class="container4">
+                        <h3 class="theme-layer-bodytext-startclue" style="padding-top: 70px;">
+                        You walk to the door at the end of the hallway. 
+                        <br>The door is old and heavy, with a brass knob, plaque, and what looks like a typewriter keyboard.
+                        <br><br><span style="color:#fabd15">You try the knob, but the door is locked.</span> 
+                        <br><br>Wait! There's something written on the door's brass plaque.
+                        <br><br><span style="color:#fabd15">"Page, line, and letter?"</span> 
+                        <br><br>Maybe you should take another look at those picture frames...
+                        </h3></div></div>
+                            <div class="column2">
+                        <img class="plaque-img" src="E:/CODE/Code/Images/DOOR PLAQUE.png" alt="Door Plaque" style="width:60%">
+                            </div></div>
+                    
+                    <div class="container12">
+                        <aside1>
+                            <img class="padlock-img" src="E:/CODE/Code/Images/padlock.png" alt="padlock"></aside1>
+                            <script>
+                                function myFunction2(){
+                                    let x = document.getElementById("passwordBox2").value;
+                                    let text;
+                                    if(x == "DOUBLOON") {
+                                        alert("That is correct! The door opens!");
+                                        $("div#container13").removeClass("hidden4");
+                                        $("div#container14").removeClass("hidden4");
+                                   
+                                    }    
+                                    else {
+                                    alert("Access Denied! Try Again.");
+                                    $(".container13").hide();
+                                    $(".container14").hide();
+                                    }
+                                    
+                                }
+                            </script>
+
+                            <h3 class="theme-layer-bodytext-startclue">ENTER PASSWORD<br>_ _ _ _ _ _ _ _<br></h3>
+                            <input id="passwordBox2" type="password" placeholder="Enter Password Here..." onkeyup="this.value=this.value.toUpperCase();" required=""/>
+                            <br><br><button type="button" onclick="myFunction1()">Check</button> 
+                            </div>
+                            
+                            <h1 class="theme-layer-headingtext-parade">* * *</h1>
+                            </div>
+
+                            <div class="container13">
+                                <div id="CLUE3" class="hidden3">
+                                <h3 class="theme-layer-bodytext-startclue">
+                                    The door creaks open to reveal a long torch lined passageway with no second door in sight.
+                                    <br><br><span style="color:#fabd15">You've come this far you think</span>
+                                    <br><br>
+                                    <br><br>If a book got you in here maybe one can get you out.
+                                    <br><br>You begin to pull the off the shelves. Is something written on the back of the shelf?
+                                    <br><br>
+                                    </h3></div></div>
+                    
+                </div>
+
+            </div>
+            </div>
+                      
+        </section>
+    </body>
